@@ -18,7 +18,7 @@ class VendorlessInstaller extends LibraryInstaller
         );
         
         $extra = $package->getExtra();
-var_dump($extra);
+var_dump($package);
         return 'data/templates/'.substr($package->getPrettyName(), 23);
     }
 
