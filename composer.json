@@ -1,0 +1,20 @@
+{
+    "name": "bossa/vendorless-installer",
+    "type": "composer-installer",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "Marcello Duarte",
+            "email": "marcello.duarte@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-0": {"bossa": "src/"}
+    },
+    "extra": {
+        "class": "bossa\\VendorlessInstaller"
+    },
+    "require": {
+        "php": ">=5.2.0"
+    }
+}
