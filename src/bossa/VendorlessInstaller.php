@@ -17,9 +17,7 @@ class VendorlessInstaller extends LibraryInstaller
             strpos($package->getPrettyName(), '/')
         );
         
-        $extra = $package->getExtra();
-var_dump($package);
-        return 'data/templates/'.substr($package->getPrettyName(), 23);
+        return 'public/' . $suffix;
     }
 
 }
